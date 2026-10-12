@@ -1,14 +1,17 @@
 import React from "react"
-import { Box, Flex, Image, Text } from "@chakra-ui/react"
-import CWMCSLogo from "../assets/CWCS_Logo.png"
+import { Box, Flex, Text } from "@chakra-ui/react"
 
 export default function Header() {
   return (
     <Box
-      bgGradient="to-r"
-      gradientFrom="rgb(20, 3, 255)"
-      gradientTo="rgb(31, 147, 255)"
-      width="100%"
+      bg="linear-gradient(
+        135deg, 
+        #080d1f 0%, 
+        #102B5C 50%,
+        #081329 100%)"
+      height="100px"
+      width="calc(100% - 240px)"
+      marginLeft="240px"
     >
       <Flex
         align="center"
@@ -16,23 +19,12 @@ export default function Header() {
         px={4}
         py={2}
       >
-        <Image
-          src={CWMCSLogo}
-          alt="CWCMS"
-          height="60px"
-          width="auto"
-          bg="white"
-          borderRadius="md"
-          p={0.5}
-        />
-
         <Text
           fontSize="xl"
           fontWeight="bold"
           color="white"
           letterSpacing="1px"
         >
-          Contractor Workplace Compliance Management System
         </Text>
       </Flex>
     </Box>

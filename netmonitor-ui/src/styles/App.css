@@ -14,3 +14,10 @@ html, body {
     color: white;
     height: 100%;
 }
+
+.main-content {
+    padding: 20px;
+    margin-left: 240px; /* Adjust for sidebar width */
+    min-height: calc(100vh - 100px); /* Adjust for header height */
+    background-color: #212528; /* Match the overall background color */
+}
