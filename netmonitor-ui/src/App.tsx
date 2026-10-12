@@ -1,0 +1,13 @@
+import React from "react";
+import Header from "./components/Header";
+import AppSidebar from "./components/AppSidebar";
+const App: React.FC = () => {
+  return (
+    <div>
+      <Header />
+      <AppSidebar />
+    </div>
+  )
+}
+
+export default App
