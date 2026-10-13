@@ -36,7 +36,9 @@ function NetMonitorSidebar() {
                     </div>
                 </div>
 
+                {/*********************************************************************/}
                 {/* Navigation */}
+                {/*********************************************************************/}
                 <Menu
                     menuItemStyles={{
                         button: {
@@ -61,6 +63,9 @@ function NetMonitorSidebar() {
                         },
                     }}
                 >
+                    {/*********************************************************************/}
+                    {/* DASHBOARD */}
+                    {/*********************************************************************/}
                     <MenuItem
                         icon={<LayoutDashboard size={18} />}
                         component={<NavLink to="/dashboard" />}
@@ -68,6 +73,9 @@ function NetMonitorSidebar() {
                         Dashboard
                     </MenuItem>
 
+                    {/*********************************************************************/}
+                    {/* DEVICES */}
+                    {/*********************************************************************/}
                     <MenuItem
                         icon={<Server size={18} />}
                         component={<NavLink to="/devices" />}
@@ -75,6 +83,9 @@ function NetMonitorSidebar() {
                         Devices
                     </MenuItem>
 
+                    {/*********************************************************************/}
+                    {/* ANALYTICS */}
+                    {/*********************************************************************/}
                     <MenuItem
                         icon={<Activity size={18} />}
                         component={<NavLink to="/analytics" />}
@@ -82,6 +93,9 @@ function NetMonitorSidebar() {
                         Analytics
                     </MenuItem>
 
+                    {/*********************************************************************/}
+                    {/* TOPOLOGY */}
+                    {/*********************************************************************/}
                     <MenuItem
                         icon={<Network size={18} />}
                         component={<NavLink to="/topology" />}
@@ -89,6 +103,9 @@ function NetMonitorSidebar() {
                         Topology
                     </MenuItem>
 
+                    {/*********************************************************************/}
+                    {/* SETTINGS */}
+                    {/*********************************************************************/}
                     <MenuItem
                         icon={<Settings size={18} />}
                         component={<NavLink to="/settings" />}
