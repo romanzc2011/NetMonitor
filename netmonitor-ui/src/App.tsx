@@ -1,9 +1,9 @@
 import React from "react";
 import Layout from "./components/Layout";
 import { Routes, Route } from "react-router";
-import Analytics from "./pages/Analytics";
-import Devices from "./pages/Devices";
-import Dashboard from "./pages/Dashboard";
+import Analytics from "./features/analytics/Analytics";
+import Devices from "./features/devices/Devices";
+import Dashboard from "./features/dashboard/Dashboard";
 const App: React.FC = () => {
   return (
     <div>
