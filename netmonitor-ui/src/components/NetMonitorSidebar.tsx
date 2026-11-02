@@ -13,6 +13,7 @@ import {
 import "../styles/Sidebar.css";
 
 function NetMonitorSidebar() {
+    
     return (
         <Sidebar
             width="240px"
@@ -52,7 +53,7 @@ function NetMonitorSidebar() {
                                 backgroundColor: "#172554",
                                 color: "#ffffff",
                             },
-
+                                                                                                                                                                                                                                                                                    
                             "&.active": {
                                 backgroundColor: "#1d4ed8",
                                 color: "#ffffff",
